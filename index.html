@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/105f2a602f.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Password Generator</title>
+  </head>
+  <body>
+    <div class="form-container">
+      <h3>PASSWORD GENERATOR</h3>
+      <br />
+      <form>
+        <div class="pwd1">
+          <div id="pwd"></div>
+          <button type="button" id="copy" onclick="copyPwd()">
+            <i class="far fa-clipboard"></i>
+          </button>
+        </div>
+        <br />
+        <div class="len1">
+          <label>PASSWORD LENGTH</label
+          ><input type="number" id="len" min="4" , max="25" />
+        </div>
+        <br />
+        <div class="ucase1">
+          <label for="ucase">INCLUDE UPPERCASE LETTERS</label
+          ><input type="checkbox" id="ucase" checked />
+        </div>
+        <br />
+        <div class="lcase1">
+          <label for="lcase">INCLUDE LOWERCASE LETTERS</label
+          ><input type="checkbox" id="lcase" checked />
+        </div>
+        <br />
+        <div class="num1">
+          <label for="num">INCLUDE NUMBERS</label
+          ><input type="checkbox" id="num" checked />
+        </div>
+        <br />
+        <div class="symbol1">
+          <label for="symbol">INCLUDE SYMBOLS</label
+          ><input type="checkbox" id="symbol" checked />
+        </div>
+        <br />
+        <button id="generate">GENERATE PASSWORD</button>
+      </form>
+    </div>
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>

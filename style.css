@@ -1,0 +1,105 @@
+body {
+  background: rgb(0, 115, 207);
+}
+
+.form-container {
+  background: rgb(0, 0, 139);
+  color: white;
+  width: 30%;
+  margin: auto;
+  margin-top: 40px;
+  padding: 25px;
+  border-radius: 5px;
+  box-shadow: inset 0 0 10px rgb(0, 115, 207, 0.5);
+  text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+h3 {
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+form {
+  text-align: left;
+  padding: 10px;
+  font-style: italic;
+}
+
+input:focus,
+button:active,
+button:focus {
+  outline: none;
+}
+
+.pwd1 {
+  position: relative;
+  background: white;
+  border-radius: 3px;
+  background: #000133;
+  height: 46px;
+  padding: 10px;
+}
+
+.pwd1 button {
+  position: absolute;
+  padding: 7px 10px;
+  background: rgb(0, 115, 207, 0.7);
+  border: none;
+  color: white;
+  top: 4px;
+  right: 4px;
+  border-radius: 3px;
+}
+
+.pwd1 button:hover {
+  background: rgb(0, 115, 207);
+}
+
+.len1 label {
+  padding-top: 8px;
+}
+
+.len1 input {
+  width: 15%;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 8px;
+}
+
+.ucase1 input,
+.lcase1 input,
+.num1 input,
+.symbol1 input {
+  border-radius: 5px;
+  zoom: 1.5;
+}
+
+.len1 input,
+.ucase1 input,
+.lcase1 input,
+.num1 input,
+.symbol1 input {
+  float: right;
+}
+
+#generate {
+  font-weight: bold;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  color: white;
+  background: rgb(0, 115, 207, 0.7);
+  border-radius: 3px;
+}
+
+#generate:hover {
+  background: rgb(0, 115, 207);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
